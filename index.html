@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3006312e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="./widescreen.css"> 
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./mobile.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap" rel="stylesheet">
+    <title> Edificios </title>
+
+</head>
+
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book-open"></i> Negocio </span> Titulo
+        </h1>
+        <ul>
+            <li><a href="#home"> Inicio </a></li>
+            <li><a href="#what"> Empresa </a></li>
+            <li><a href="#who"> Equipo </a></li>
+            <li><a href="#contact"> Contacto </a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Showcase-->
+
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                Descripción
+            </h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sit ex quaerat temporibus quasi possimus animi laborum suscipit
+                eligendi praesentium veniam.
+            </p>
+
+            <a href="#what" class="btn"> | Ver Más | </a>
+        </div>
+    </header>
+
+    <!-- What -->
+
+    <section id="what" class="bg-ligth py-1">
+        <div class="contaniner">
+            <h2 class="m-heading text-center"><span class="text-primary"> Lo Que </span> Hacemos </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3> Inversiones </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Error laboriosam quibusdam dolore laudantium non inventore!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3> Portafolio </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Error laboriosam quibusdam dolore laudantium non inventore!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3> Impuestos </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Error laboriosam quibusdam dolore laudantium non inventore!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Who We Are -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary"> Nuestro </span> Equipo </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rerum nam facere
+                minima voluptatum a autem deserunt accusantium deleniti hic.</p>
+            <h3> Nuestro Equipo </h3>
+            <ul class="list">
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnson: CFO</li>
+                <li>John Corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Jackson: Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary"> Nuestros</span> Clientes
+            </h2>
+            <div class="items py-1">
+                <div> <img src="./logo1.png" alt="Client"> </div>
+                <div> <img src="./logo2.png" alt="Client"> </div>
+                <div> <img src="./logo3.png" alt="Client"> </div>
+                <div> <img src="./logo4.png" alt="Client"> </div>
+                <div> <img src="./logo5.png" alt="Client"> </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading"> Contactanos </h2>
+            <p> Por favor diligencia el formulario para contactarnos</p>
+            <form>
+                <div class="form-group">
+                    <label for="name"> Nombre </label>
+                    <input type="text" name="name" id="name" placeholder="Digita tu Nombre ">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email </label>
+                    <input type="text" name="email" id="email" placeholder="Email ">
+                </div>
+                <div class="form-group">
+                    <label for="telefono"> Teléfono </label>
+                    <input type="text" name="telefono" id="telefono" placeholder="Digita tu Número Telefónico ">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje"> Mensaje </label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Digita tu Mensaje "></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- Footer-->
+
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p> Copyright 2020</p>
+        </div>
+    </footer>
+    <!-- Jquery CND-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Main JS-->
+    <script src="./main.js"></script>
+
+    <!-- Google Maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFsQ8JYRfYzeguCezaIKRoB3vpqf2QoOs&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
+
+<!--AIzaSyCFsQ8JYRfYzeguCezaIKRoB3vpqf2QoOs-->
